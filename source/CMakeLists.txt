@@ -16,6 +16,16 @@ add_executable(
     src/oper.cpp         # Дополнительный файл исходного кода
 )
 
+# Переменная для хранения всех файлов .cpp в директории src
+# file(GLOB SOURCES
+#     "src/*.cpp"  # Находим все файлы с расширением .cpp в директории src
+# )
+# add_executable(
+#     HelloBinary main.cpp  # Основной файл программы
+#     ${SOURCES}            # Добавляем все найденные файлы .cpp
+# )
+
+
 # Устанавливаем стандарт C++ для компиляции (в данном случае C++20)
 target_compile_features(HelloBinary PRIVATE cxx_std_20)
 
