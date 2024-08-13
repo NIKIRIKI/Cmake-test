@@ -1,1 +1,1 @@
-double add(double a, double b);
+double add(const double &a, const double &b);
