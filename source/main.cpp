@@ -1,6 +1,5 @@
 #include <iostream>
 #include "include/dog.h"
-#include "include/oper.h"
 
 using std::cout, std::endl;
 
