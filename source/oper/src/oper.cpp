@@ -1,4 +1,6 @@
-double add(const double &a, const double &b)
+#include "../include/oper.h"
+
+int add(int a, int b)
 {
     return a + b;
 }

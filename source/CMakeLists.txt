@@ -13,7 +13,7 @@ project(
 add_library(operations STATIC oper/src/oper.cpp)
 
 # Указываем директорию для заголовочных файлов библиотеки 'operations'
-target_include_directories(operations PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(operations PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/oper/include)
 
 # Устанавливаем стандарт C++20 для библиотеки 'operations'
 target_compile_features(operations PUBLIC cxx_std_20)
