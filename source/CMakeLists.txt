@@ -10,7 +10,7 @@ project(
 )
 
 # Создаем статическую библиотеку с именем 'operations' из файла 'src/oper.cpp'
-add_library(operations STATIC src/oper.cpp)
+add_library(operations STATIC oper/src/oper.cpp)
 
 # Указываем директорию для заголовочных файлов библиотеки 'operations'
 target_include_directories(operations PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
